@@ -1,0 +1,45 @@
+{
+  "name": "bengali-syllable-breaker",
+  "version": "1.0.0",
+  "description": "A Chrome extension that breaks Bengali words into syllables and provides pronunciation",
+  "main": "manifest.json",
+  "scripts": {
+    "build": "echo 'Extension is ready to load in Chrome'",
+    "test": "echo 'Open test.html in browser to test the extension'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "bengali",
+    "syllable",
+    "pronunciation",
+    "language-learning",
+    "bangla",
+    "text-analysis"
+  ],
+  "author": "Bengali Language Tools",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bengali-syllable-breaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/bengali-syllable-breaker/issues"
+  },
+  "homepage": "https://github.com/your-username/bengali-syllable-breaker#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88"
+  ],
+  "manifest": {
+    "version": 3,
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "storage"
+    ]
+  }
+} 

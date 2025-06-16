@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllable Breaker - Test Page</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Bengali', 'SolaimanLipi', Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2E7D32;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .test-word {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2E7D32;
+            margin: 10px 0;
+            padding: 8px;
+            background: #E8F5E8;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .test-word:hover {
+            background: #C8E6C9;
+        }
+        
+        .instructions {
+            background: #FFF3E0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #FF9800;
+            margin-bottom: 20px;
+        }
+        
+        .instructions h3 {
+            color: #E65100;
+            margin-top: 0;
+        }
+        
+        .step {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .step:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Syllable Breaker - Test Page</h1>
+        
+        <div class="instructions">
+            <h3>How to Use:</h3>
+            <div class="step">Select the words below.</div>
+            <div class="step">Right-click with your mouse.</div>
+            <div class="step">Click the "Break Syllables" option.</div>
+            <div class="step">View results and listen to pronunciation with the speaker icon.</div>
+        </div>
+        
+        <h2>Simple Words</h2>
+        <div class="test-section">
+            <div class="test-word">I</div>
+            <div class="test-word">You</div>
+            <div class="test-word">He/She/It</div>
+            <div class="test-word">We</div>
+            <div class="test-word">You (plural)</div>
+            <div class="test-word">They</div>
+        </div>
+        
+        <h2>Complex Words</h2>
+        <div class="test-section">
+            <div class="test-word">Bangladesh</div>
+            <div class="test-word">Kolkata</div>
+            <div class="test-word">Student</div>
+            <div class="test-word">Dictionary</div>
+            <div class="test-word">Literature</div>
+            <div class="test-word">Culture</div>
+        </div>
+        
+        <h2>Sentences</h2>
+        <div class="test-section">
+            <p>I live in Bangladesh. Bengali is my mother tongue. I want to learn Bengali.</p>
+        </div>
+        
+        <h2>Poem</h2>
+        <div class="test-section">
+            <p>
+                My Golden Bengal, I love you.<br>
+                Forever your sky, your air, plays a flute in my heart.
+            </p>
+        </div>
+        
+        <h2>Numbers</h2>
+        <div class="test-section">
+            <div class="test-word">One</div>
+            <div class="test-word">Two</div>
+            <div class="test-word">Three</div>
+            <div class="test-word">Four</div>
+            <div class="test-word">Five</div>
+            <div class="test-word">Six</div>
+        </div>
+        
+        <h2>Colors</h2>
+        <div class="test-section">
+            <div class="test-word">Red</div>
+            <div class="test-word">Blue</div>
+            <div class="test-word">Green</div>
+            <div class="test-word">Yellow</div>
+            <div class="test-word">Black</div>
+            <div class="test-word">White</div>
+        </div>
+        
+        <div class="footer">
+            <p>This page is created for testing the extension.</p>
+            <p>Select all words and right-click to test!</p>
+        </div>
+    </div>
+</body>
+</html> 

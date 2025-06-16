@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC WORDS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-header">
+            <h1>ABC WORDS</h1>
+        </div>
+        <div class="popup-content">
+            <p>Select any text on a webpage, right-click, and choose "ABC WORDS" to see the word broken into syllables with meaning and pronunciation.</p>
+            
+            <div class="features">
+                <h3>Features:</h3>
+                <ul>
+                    <li>Breaks words into syllables</li>
+                    <li>Shows word meaning</li>
+                    <li>Displays pronunciation for Bengali words</li>
+                    <li>Supports both Bengali and English text</li>
+                </ul>
+            </div>
+            
+            <div class="instructions">
+                <h3>How to use:</h3>
+                <ol>
+                    <li>Select any word or text on a webpage</li>
+                    <li>Right-click on the selected text</li>
+                    <li>Choose "ABC WORDS" from the context menu</li>
+                    <li>View the results in the popup</li>
+                </ol>
+            </div>
+            
+            <div class="voice-pack-notice">
+                <h3><span style="color: red;">Important Note for Speaker Function:</span></h3>
+                <p><span style="color: red;">If you wish to use the speaker (pronunciation playback) option, you must install Bengali and English voice packs on your computer's operating system for proper pronunciation.</span></p>
+                
+                <h3><span style="color: blue;">How to Install Voice Packs (Windows OS):</span></h3>
+                <ol>
+                    <li><span style="color: blue;">Go to your computer's <b>Settings</b>.</span></li>
+                    <li><span style="color: blue;">Click on <b>Time & Language</b>.</span></li>
+                    <li><span style="color: blue;">Select <b>Language & region</b> from the left menu.</span></li>
+                    <li><span style="color: blue;">Under "Preferred languages", click on <b>Add a language</b>.</span></li>
+                    <li><span style="color: blue;">Search for and select <b>Bengali (India)</b> or <b>Bengali (Bangladesh)</b>, and <b>English (United States)</b> or your preferred English variant.</span></li>
+                    <li><span style="color: blue;">After selecting, click <b>Next</b>. On the next screen, ensure the <b>Speech</b> or <b>Text-to-speech</b> checkbox is selected for the chosen language. This will download and install the voice pack.</span></li>
+                    <li><span style="color: blue;">Click <b>Install</b> and wait for the process to complete.</span></li>
+                </ol>
+
+                <h3><span style="color: blue;">How to Install Voice Packs (Linux OS):</span></h3>
+                <p><span style="color: blue;">On most Linux distributions, you can install text-to-speech packages and language data using your system's package manager. Common text-to-speech engines include `espeak` or `festival`.</span></p>
+                <ol>
+                    <li><span style="color: blue;"><b>Open Terminal:</b> Use `Ctrl+Alt+T` or search for "Terminal".</span></li>
+                    <li><span style="color: blue;"><b>Update package lists:</b><br><code>sudo apt update</code> (for Debian/Ubuntu based systems)</span></li>
+                    <li><span style="color: blue;"><b>Install text-to-speech engine (e.g., espeak and its data):</b><br><code>sudo apt install espeak espeak-ng-data mbrola-bn1</code> (for Bengali voice, if available)</span></li>
+                    <li><span style="color: blue;"><b>Install English voice:</b><br><code>sudo apt install espeak-ng-data-en</code> (or similar package)</span></li>
+                    <li><span style="color: blue;"><b>Verify installation (optional):</b><br><code>espeak -v bn "এটি একটি পরীক্ষা"</code><br><code>espeak -v en "This is a test"</code></span></li>
+                    <li><span style="color: blue;"><b>For Fedora/RHEL based systems:</b> Use `sudo dnf install espeak espeak-ng-data` and search for specific language packs.</span></li>
+                </ol>
+
+                <h3><span style="color: blue;">How to Install Voice Packs (macOS):</span></h3>
+                <p><span style="color: blue;">macOS usually has robust built-in text-to-speech capabilities.</span></p>
+                <ol>
+                    <li><span style="color: blue;">Go to <b>System Settings</b> (or System Preferences on older macOS versions).</span></li>
+                    <li><span style="color: blue;">Click on <b>Accessibility</b>.</span></li>
+                    <li><span style="color: blue;">In the sidebar, click on <b>Spoken Content</b>.</span></li>
+                    <li><span style="color: blue;">Next to "System Voice", click on <b>Manage Voices...</b>.</span></li>
+                    <li><span style="color: blue;">Find and select the desired <b>Bengali</b> and <b>English</b> voices. You may need to scroll down or search. Check the box next to them to download.</span></li>
+                    <li><span style="color: blue;">Once downloaded, they will be available for use.</span></li>
+                </ol>
+
+                <p><span style="color: blue;">After installation, reload your extension in Chrome (go to <code>chrome://extensions/</code> and click the refresh button for ABC WORDS) for the changes to take effect.</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
